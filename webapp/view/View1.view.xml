@@ -1,0 +1,15 @@
+<mvc:View xmlns:form="sap.ui.layout.form" controllerName="zpractise.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content >
+        <form:Form ></form:Form>
+        <Label text="Enter First Name"></Label>
+        <Input id="idFirstName" liveChange="onNameChange" placeholder="Eg:Ahamed" width="300px"/>
+        <Label text="Enter Last Name"></Label>
+        <Input id="idLastName" liveChange="onNameChange" placeholder="Eg:Kaleemullah" width="300px"/>
+        <Label text="Full Name"></Label>
+        <Input id="idFullName" enabled="false" width="700px"></Input>
+        </content>
+    </Page>
+</mvc:View>
